@@ -51,6 +51,24 @@ public class IfElseBasic {
 		}
 		
 	}
+	
+	public static void dayMonths(String ch) {
+		int day = 1;
+		switch(ch) {
+		case "manson" : System.out.println("May to September");
+		case "summer" :System.out.println("january to May");
+		case "winter" : System.out.println("octember to december");
+		}
+		switch(day) {
+		case 1 : System.out.println("Sunday");
+		case 2 : System.out.println("Monday");
+		case 3: System.out.println("Tuesday");
+		case 4: System.out.println("wednesday");
+		case 5: System.out.println("Thursday");
+		case 6: System.out.println("Friday");
+		case 7: System.out.println("Saturday");
+		}
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 //		largestAmongThree(10, 200, 90);
